@@ -2,10 +2,10 @@
 #source global define
 ################################
 
-if (-r $HOME/.alias) then
-    source  $HOME/.alias
+if (-r $HOME/system_cfg/.alias) then
+    source  $HOME/system_cfg/.alias
 endif
 
-if (-r $HOME/.cshrc_me) then
-    source  $HOME/.cshrc_me
+if (-r $HOME/system_cfg/.cshrc_me) then
+    source  $HOME/system_cfg/.cshrc_me
 endif

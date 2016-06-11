@@ -1,11 +1,5 @@
 ################################
-#source global define
+#define local parameters
 ################################
 
-if (-r $HOME/.alias) then
-    source  $HOME/.alias
-endif
-
-if (-r $HOME/.cshrc_me) then
-    source  $HOME/.cshrc_me
-endif
+alias cd 'cd \!*;ls;set prompt = "<`hostname`:${cwd}>"'
